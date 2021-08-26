@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>If set, continue executing the remaining activities even if the current activity has failed.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute).</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Timeout_DisplayName" xml:space="preserve">
+    <value>Timeout (milliseconds)</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Error" xml:space="preserve">
+    <value>The activity timed out and was canceled.</value>
+    <comment>error message</comment>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+    <comment>generic</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+    <comment>category</comment>
+  </data>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>Authentication</value>
+    <comment>category</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+  <data name="Options_Category" xml:space="preserve">
+    <value>Options</value>
+    <comment>category</comment>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+    <comment>error message; {0} is the name of a missing property</comment>
+  </data>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>Please provide a value either for {0} or {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>Please provide values for both {0} and {1}.</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
+  </data>
+  <data name="SignScope_DisplayName" xml:space="preserve">
+    <value>Sign Scope</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SignScope_Description" xml:space="preserve">
+    <value>Scope for Activities to interact with DocuSign eSign Services</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SignScope_AuthenticationServer_DisplayName" xml:space="preserve">
+    <value>AuthenticationServer</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_AuthenticationServer_Description" xml:space="preserve">
+    <value>The URI of the authentication service instance to be used.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SignScope_ClientD_DisplayName" xml:space="preserve">
+    <value>ClientD</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_ClientD_Description" xml:space="preserve">
+    <value>The integration key (also known as client ID) of the application</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SignScope_UserID_DisplayName" xml:space="preserve">
+    <value>UserID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_UserID_Description" xml:space="preserve">
+    <value>The user ID of the user to be impersonated.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SignScope_PrivateKey_DisplayName" xml:space="preserve">
+    <value>PrivateKey</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_PrivateKey_Description" xml:space="preserve">
+    <value>RSA Private Key</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SignScope_RedirectUri_DisplayName" xml:space="preserve">
+    <value>RedirectUri</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_RedirectUri_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="SignScope_TargetAccountID_DisplayName" xml:space="preserve">
+    <value>TargetAccountID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SignScope_TargetAccountID_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_DisplayName" xml:space="preserve">
+    <value>Create Document</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CreateDocument_Description" xml:space="preserve">
+    <value>Create Document with Signature Details</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="CreateDocument_DocumentPath_DisplayName" xml:space="preserve">
+    <value>DocumentPath</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_DocumentPath_Description" xml:space="preserve">
+    <value>Full File Path to Document</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_SignatureAnchor_DisplayName" xml:space="preserve">
+    <value>SignatureAnchor</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_SignatureAnchor_Description" xml:space="preserve">
+    <value>Anchor Text for Signature</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_AnchorOption_DisplayName" xml:space="preserve">
+    <value>AnchorOption</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_AnchorOption_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_PageNumber_DisplayName" xml:space="preserve">
+    <value>PageNumber</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_PageNumber_Description" xml:space="preserve">
+    <value>Page of Signature in Document</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_XOffset_DisplayName" xml:space="preserve">
+    <value>XOffset</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_XOffset_Description" xml:space="preserve">
+    <value>X Offset for Signature (pixels)</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_YOffset_DisplayName" xml:space="preserve">
+    <value>YOffset</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_YOffset_Description" xml:space="preserve">
+    <value>Y Offset for Signature (pixels)</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_Document_DisplayName" xml:space="preserve">
+    <value>Document</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_Document_Description" xml:space="preserve">
+    <value>Document Output</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_DisplayName" xml:space="preserve">
+    <value>Create Recipient</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CreateRecipient_Description" xml:space="preserve">
+    <value>Create Recipient</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="CreateRecipient_Role_DisplayName" xml:space="preserve">
+    <value>Role</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateRecipient_Role_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_EmailAddress_DisplayName" xml:space="preserve">
+    <value>EmailAddress</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateRecipient_EmailAddress_Description" xml:space="preserve">
+    <value>Valid Email Address of Recipient</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_FullName_DisplayName" xml:space="preserve">
+    <value>FullName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateRecipient_FullName_Description" xml:space="preserve">
+    <value>Full legal Name of Recipient</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_RoutingOrder_DisplayName" xml:space="preserve">
+    <value>RoutingOrder</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateRecipient_RoutingOrder_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="DefineEnvelope_DisplayName" xml:space="preserve">
+    <value>Define Envelope</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DefineEnvelope_Description" xml:space="preserve">
+    <value>Define Envelope with Recipients and Documents for Signature</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DefineEnvelope_Documents_DisplayName" xml:space="preserve">
+    <value>Documents</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DefineEnvelope_Documents_Description" xml:space="preserve">
+    <value>Single or Multiple Document Objects</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DefineEnvelope_Recipients_DisplayName" xml:space="preserve">
+    <value>Recipients</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DefineEnvelope_Recipients_Description" xml:space="preserve">
+    <value>Singe or Multiple Recipient Objects</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DefineEnvelope_Envelope_DisplayName" xml:space="preserve">
+    <value>Envelope</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DefineEnvelope_Envelope_Description" xml:space="preserve">
+    <value>Add Doucments and Recipients to Envelope</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendEnvelope_DisplayName" xml:space="preserve">
+    <value>Send Envelope</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SendEnvelope_Description" xml:space="preserve">
+    <value>Finalize Envelope and Send</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SendEnvelope_Envelope_DisplayName" xml:space="preserve">
+    <value>Envelope</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendEnvelope_Envelope_Description" xml:space="preserve">
+    <value>Predefined Envelope </value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendEnvelope_EmailSubject_DisplayName" xml:space="preserve">
+    <value>EmailSubject</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendEnvelope_EmailSubject_Description" xml:space="preserve">
+    <value>Email Subject Text</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendEnvelope_Status_DisplayName" xml:space="preserve">
+    <value>Status</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendEnvelope_Status_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="SendEnvelope_EnvelopeID_DisplayName" xml:space="preserve">
+    <value>EnvelopeID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendEnvelope_EnvelopeID_Description" xml:space="preserve">
+    <value>ID of Sent Envelope</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendEnvelope_EnvelopeStatus_DisplayName" xml:space="preserve">
+    <value>EnvelopeStatus</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendEnvelope_EnvelopeStatus_Description" xml:space="preserve">
+    <value>Status of Envelope</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_Recipient_Description" xml:space="preserve">
+    <value>Recipient Output Object</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_Recipient_DisplayName" xml:space="preserve">
+    <value>Recipient</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_DisplayName" xml:space="preserve">
+    <value>Download Envelope Documents</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_Description" xml:space="preserve">
+    <value>Download all Documents that are included in Envelope</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_EnvelopeID_DisplayName" xml:space="preserve">
+    <value>Envelope ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_EnvelopeID_Description" xml:space="preserve">
+    <value>Envelope ID</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_DownloadPath_DisplayName" xml:space="preserve">
+    <value>Download Path</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_DownloadPath_Description" xml:space="preserve">
+    <value>Download Folder</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_EnvelopeStatusFilter_DisplayName" xml:space="preserve">
+    <value>Envelope Status Filter</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_EnvelopeStatusFilter_Description" xml:space="preserve">
+    <value>Filter Documents by Status, Check all Items that need to be included </value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_DisplayName" xml:space="preserve">
+    <value>ListEnvelopes</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ListEnvelopes_Description" xml:space="preserve">
+    <value>Retrieves a list of envelopes that match your request. A large set of optional filters let you filter by date, by envelope ID, or by status codes.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ListEnvelopes_FromDate_DisplayName" xml:space="preserve">
+    <value>FromDate</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_FromDate_Description" xml:space="preserve">
+    <value>YYYY-DD-MM</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_ToDate_DisplayName" xml:space="preserve">
+    <value>ToDate</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_ToDate_Description" xml:space="preserve">
+    <value>YYYY-DD-MM</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_FromToStatus_DisplayName" xml:space="preserve">
+    <value>FromToStatus</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_FromToStatus_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_EnvelopeIDs_DisplayName" xml:space="preserve">
+    <value>EnvelopeIDs</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_EnvelopeIDs_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_TransactionIDs_DisplayName" xml:space="preserve">
+    <value>TransactionIDs</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_TransactionIDs_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_MaxResults_DisplayName" xml:space="preserve">
+    <value>MaxResults</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_MaxResults_Description" xml:space="preserve">
+    <value>Limit max Number of Results</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_CustomField_DisplayName" xml:space="preserve">
+    <value>CustomField</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_CustomField_Description" xml:space="preserve">
+    <value>Syntax: custom_envelope_field_name=desired_value</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_FolderIDs_DisplayName" xml:space="preserve">
+    <value>FolderIDs</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_FolderIDs_Description" xml:space="preserve">
+    <value>Valid Folder Guids</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_Include_DisplayName" xml:space="preserve">
+    <value>Include</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_Include_Description" xml:space="preserve">
+    <value>Specifies additional information to return about the envelopes.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_SearchText_DisplayName" xml:space="preserve">
+    <value>SearchText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ListEnvelopes_SearchText_Description" xml:space="preserve">
+    <value>Free text search to filter Results</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_MatchingEnvelopes_Description" xml:space="preserve">
+    <value>Matched EnvelopeIDs</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ListEnvelopes_MatchingEnvelopes_DisplayName" xml:space="preserve">
+    <value>MatchtingEnvelopeIDs</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DisplayName" xml:space="preserve">
+    <value>GetEnvelopeInformation</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_Description" xml:space="preserve">
+    <value>Get specific Information of Envelope</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_EnvelopeId_DisplayName" xml:space="preserve">
+    <value>EnvelopeId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_EnvelopeId_Description" xml:space="preserve">
+    <value>EnvelopeID</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DocumentIds_DisplayName" xml:space="preserve">
+    <value>DocumentIds</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DocumentIds_Description" xml:space="preserve">
+    <value>List of Document IDs attached to this Envelope</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_Recpients_DisplayName" xml:space="preserve">
+    <value>Recpients</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_Recpients_Description" xml:space="preserve">
+    <value>List of Recipients and their Role in this Envelope</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_EnvelopeStatus_DisplayName" xml:space="preserve">
+    <value>EnvelopeStatus</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_EnvelopeStatus_Description" xml:space="preserve">
+    <value>Current Status</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_StatusChangedDateTime_DisplayName" xml:space="preserve">
+    <value>StatusChangedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_StatusChangedDateTime_Description" xml:space="preserve">
+    <value>Timestamp Statuschange</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_CreatedDateTime_DisplayName" xml:space="preserve">
+    <value>CreatedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_CreatedDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeclinedDateTime_DisplayName" xml:space="preserve">
+    <value>DeclinedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeclinedDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeletedDateTime_DisplayName" xml:space="preserve">
+    <value>DeletedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeletedDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeliveredDateTime_DisplayName" xml:space="preserve">
+    <value>DeliveredDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_DeliveredDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_ExpireDateTime_DisplayName" xml:space="preserve">
+    <value>ExpireDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_ExpireDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_SentDateTime_DisplayName" xml:space="preserve">
+    <value>SentDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_SentDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_VoidedDateTime_DisplayName" xml:space="preserve">
+    <value>VoidedDateTime</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_VoidedDateTime_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_VoidedReason_DisplayName" xml:space="preserve">
+    <value>VoidedReason</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_VoidedReason_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="GetEnvelopeInformation_JsonData_DisplayName" xml:space="preserve">
+    <value>JsonData</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetEnvelopeInformation_JsonData_Description" xml:space="preserve">
+    <value>Envelope Json Data</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_Files_Description" xml:space="preserve">
+    <value>List of downloaded Files</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadEnvelopeDocuments_Files_DisplayName" xml:space="preserve">
+    <value>Files</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateDocument_DocumentId_Description" xml:space="preserve">
+    <value>Generated DocumentId </value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateDocument_DocumentId_DisplayName" xml:space="preserve">
+    <value>DocumentId</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CreateRecipient_DocumentId_Description" xml:space="preserve">
+    <value>DocumentId</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CreateRecipient_DocumentId_DisplayName" xml:space="preserve">
+    <value>DocumentId</value>
+    <comment>property name</comment>
+  </data>
+</root>
